@@ -1,0 +1,38 @@
+.container {
+    width: fit-content;
+    margin-top: 10%;
+    padding: 30px;
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.inputArea {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.lable {
+    margin: 25px 10px 25px 25px;
+}
+
+.textField {
+    margin: 20px;
+}
+
+.textField button {
+    margin-top: 15px;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+}
