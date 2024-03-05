@@ -11,17 +11,15 @@
 
 <body>
     <div class="container">
-        <h2>Random Number Gues</h2>
+        <h2>Number Guess Game</h2>
 
-        <div class="inputArea">
-            <div class="lable">
-                <label for="exampleInputEmail1" class="form-label">Enter Number (0-20)</label>
-            </div>
-            <div class="textField">
-                <input type="text" class="form-control" id="txtNum">
-                <button type="button" onclick="submit()" class="btn btn-primary">Submit</button>
-            </div>
-        </div>
+        <label id="SuccessMessage" class="form-label"></label>
+        <label id="WarningMessage" class="form-label"></label>
+        <label id="ErrorMessage" class="form-label"></label>
+
+        <input type="text" class="form-control" id="txtNum" placeholder="Enter Number (0-20)">
+        <button type="button" onclick="guess()" class="btn btn-primary">Guess</button>
+
     </div>
 
     <div class="result" id="result">
